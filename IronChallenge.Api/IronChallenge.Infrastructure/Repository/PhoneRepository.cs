@@ -36,15 +36,12 @@ namespace IronChallenge.Infrastructure.Repository
                         }
                         else 
                         {
-                            if (buttonDto.TotalRepition>0)
-                            {
-                                buttonDtos.Add(buttonDto);
-                            }
                             buttonDto = new()
                             {
                                 Character = $"{character}",
                                 TotalRepition = 1
                             };
+                            buttonDtos.Add(buttonDto);
                         }
 
                     }
