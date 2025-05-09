@@ -1,9 +1,9 @@
 ﻿namespace IronChallenge.Domain.Entities
 {
     /// <summary>
-    /// This class is to store the digit and the list of characters that each digit has.
+    /// This class is to store the digit and list of characters that each button on the phone's keypad has.
     /// </summary>
-    public class Phone
+    public class Button
     {
         /// <summary>
         /// The identifier of each character list.
