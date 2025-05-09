@@ -2,7 +2,7 @@
 {
     public  interface IPhoneRepository
     {
-        public string OldPhonePad(string input);
+        public (int,string) OldPhonePad(string input);
 
     }
 }

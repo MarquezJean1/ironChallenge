@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8801638E-4369-4937-A38E-3AD3D0E61EBC}|IronChallenge.Api\\IronChallenge.Api.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.api\\controllers\\phonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8801638E-4369-4937-A38E-3AD3D0E61EBC}|IronChallenge.Api\\IronChallenge.Api.csproj|solutionrelative:ironchallenge.api\\controllers\\phonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31FE6974-C992-459C-801B-C57DF86D20A7}|IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.infrastructure\\repository\\phonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31FE6974-C992-459C-801B-C57DF86D20A7}|IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj|solutionrelative:ironchallenge.infrastructure\\repository\\phonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31FE6974-C992-459C-801B-C57DF86D20A7}|IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.infrastructure\\ironchallenge.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{31FE6974-C992-459C-801B-C57DF86D20A7}|IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj|solutionrelative:ironchallenge.infrastructure\\ironchallenge.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8801638E-4369-4937-A38E-3AD3D0E61EBC}|IronChallenge.Api\\IronChallenge.Api.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8801638E-4369-4937-A38E-3AD3D0E61EBC}|IronChallenge.Api\\IronChallenge.Api.csproj|solutionrelative:ironchallenge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.domain\\interface\\iphonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|solutionrelative:ironchallenge.domain\\interface\\iphonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.domain\\entities\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|solutionrelative:ironchallenge.domain\\entities\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|solutionrelative:ironchallenge.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 330,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhoneController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Api\\Controllers\\PhoneController.cs",
+              "RelativeDocumentMoniker": "IronChallenge.Api\\Controllers\\PhoneController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Api\\Controllers\\PhoneController.cs",
+              "RelativeToolTip": "IronChallenge.Api\\Controllers\\PhoneController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T05:28:11.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IronChallenge.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj",
+              "RelativeToolTip": "IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T05:26:57.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Api\\Program.cs",
+              "RelativeDocumentMoniker": "IronChallenge.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Api\\Program.cs",
+              "RelativeToolTip": "IronChallenge.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T05:19:02.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhoneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Infrastructure\\Repository\\PhoneRepository.cs",
+              "RelativeDocumentMoniker": "IronChallenge.Infrastructure\\Repository\\PhoneRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Infrastructure\\Repository\\PhoneRepository.cs",
+              "RelativeToolTip": "IronChallenge.Infrastructure\\Repository\\PhoneRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwDcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T04:12:35.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPhoneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Domain\\Interface\\IPhoneRepository.cs",
+              "RelativeDocumentMoniker": "IronChallenge.Domain\\Interface\\IPhoneRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Domain\\Interface\\IPhoneRepository.cs",
+              "RelativeToolTip": "IronChallenge.Domain\\Interface\\IPhoneRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T04:12:16.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Button.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Domain\\Entities\\Button.cs",
+              "RelativeDocumentMoniker": "IronChallenge.Domain\\Entities\\Button.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Domain\\Entities\\Button.cs",
+              "RelativeToolTip": "IronChallenge.Domain\\Entities\\Button.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T04:15:58.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "IronChallenge.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Domain\\Class1.cs",
+              "RelativeToolTip": "IronChallenge.Domain\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T04:10:15.04Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

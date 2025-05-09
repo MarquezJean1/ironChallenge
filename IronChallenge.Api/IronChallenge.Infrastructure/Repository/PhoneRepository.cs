@@ -5,45 +5,54 @@ namespace IronChallenge.Infrastructure.Repository
 {
     public class PhoneRepository: IPhoneRepository
     {
-        public string OldPhonePad(string input)
+        public (int, string) OldPhonePad(string input)
         {
-            List<Button> PhoneKeypad = ListButtons();
-            List<string> NumberToCode = PhoneKeypad.Select( btn => $"{btn.Number}").ToList();
-
-
-            var listCharacters = input
-                .Where(chr => NumberToCode.Contains($"{chr}"))
-                .GroupBy(chr => chr)
-                .Select(chr => new
-                {
-                    leter = $"{chr.First()}",
-                    totalRepition = chr.Count()
-                })
-                .ToList();
-
-            var decoder = "";
-
-            foreach (var characters in listCharacters)
+            try
             {
-                var letersCount = PhoneKeypad.Where(chr => $"{chr.Number}" == characters.leter).Select(chr => chr.Letters).FirstOrDefault();
-                var total = characters.totalRepition;
-                if(letersCount!=null)
-                    while (total > 0)
-                    {
-                        if (total > letersCount.Count)
-                        {
-                            decoder += letersCount.OrderDescending().FirstOrDefault();
-                            total -= letersCount.Count;
-                        }
-                        else 
-                        {
-                            decoder += letersCount.ElementAt(total-1);
-                            total = 0;
-                        }
-                    }
-            }
+                List<Button> PhoneKeypad = ListButtons();
+                List<string> NumberToCode = PhoneKeypad.Select(btn => $"{btn.Number}").ToList();
 
-            return decoder;
+
+                var listCharacters = input
+                    .Where(chr => NumberToCode.Contains($"{chr}"))
+                    .GroupBy(chr => chr)
+                    .Select(chr => new
+                    {
+                        leter = $"{chr.First()}",
+                        totalRepition = chr.Count()
+                    })
+                    .ToList();
+
+                var decoder = "";
+
+                foreach (var characters in listCharacters)
+                {
+                    var letersCount = PhoneKeypad.Where(chr => $"{chr.Number}" == characters.leter).Select(chr => chr.Letters).FirstOrDefault();
+                    var total = characters.totalRepition;
+                    if (letersCount != null)
+                        while (total > 0)
+                        {
+                            if (total > letersCount.Count)
+                            {
+                                decoder += letersCount.OrderDescending().FirstOrDefault();
+                                total -= letersCount.Count;
+                            }
+                            else
+                            {
+                                decoder += letersCount.ElementAt(total - 1);
+                                total = 0;
+                            }
+                        }
+                }
+
+                return (200, decoder);
+
+            }
+            catch (Exception ex)
+            {
+                return (400, ex.Message);
+            }
+            
         }
 
         /// <summary>
