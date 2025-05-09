@@ -48,11 +48,11 @@ namespace IronChallenge.Test
             Assert.AreEqual(result, outPut); 
         }
         [TestMethod]
-        public void ExtraItem()
+        public void FiveItem()
         {
             string result = "ironsoftware";
             string outPut = _phoneRepository.OldPhonePad("44477766666 7777 666 333 89277733#").Item2;
             Assert.AreEqual(result, outPut);
-        }
+        } 
     }
 }
