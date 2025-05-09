@@ -43,7 +43,7 @@ namespace IronChallenge.Test
         [TestMethod]
         public void FourtItem()
         {
-            string result = "TURIGON";
+            string result = "TURIONG"; 
             string outPut = _phoneRepository.OldPhonePad("8 88777444666*664#").Item2.ToUpper();
             Assert.AreEqual(result, outPut); 
         }
