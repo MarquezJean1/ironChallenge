@@ -51,7 +51,8 @@ namespace IronChallenge.Test
         public void FiveItem()
         {
             string result = "ironsoftware";
-            string outPut = _phoneRepository.OldPhonePad("44477766666 7777 666 333 89277733#").Item2;
+            //string outPut = _phoneRepository.OldPhonePad("44477766666 7777 666 333 89277733#").Item2;
+            string outPut = _phoneRepository.OldPhonePad("44477766666777766633389277733#").Item2;
             Assert.AreEqual(result, outPut);
         } 
     }

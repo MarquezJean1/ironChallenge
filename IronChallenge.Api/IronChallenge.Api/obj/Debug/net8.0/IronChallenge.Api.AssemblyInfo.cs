@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IronChallenge.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b6ef5046e8496128e038149d5c547c47f2f8661")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8206e0eaa799934a2ef796957258cb0f771256cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("IronChallenge.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IronChallenge.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

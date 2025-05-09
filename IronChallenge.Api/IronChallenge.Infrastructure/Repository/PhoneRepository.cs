@@ -27,15 +27,27 @@ namespace IronChallenge.Infrastructure.Repository
                 foreach (var _input in listInputs)
                 {
                     // Get number and count repetition
-                    buttonDtos.AddRange( _input
-                        .Where(chr => NumberToCode.Contains($"{chr}"))
-                        .GroupBy(chr => chr)
-                        .Select(chr => new ButtonDto
+                    ButtonDto buttonDto = new();
+                    foreach (var character in _input)
+                    {
+                        if (buttonDto.Character ==$"{character}")
                         {
-                            Character = $"{chr.First()}",
-                            TotalRepition = chr.Count()
-                        })
-                        .ToList());
+                            buttonDto.TotalRepition++;
+                        }
+                        else 
+                        {
+                            if (buttonDto.TotalRepition>0)
+                            {
+                                buttonDtos.Add(buttonDto);
+                            }
+                            buttonDto = new()
+                            {
+                                Character = $"{character}",
+                                TotalRepition = 1
+                            };
+                        }
+
+                    }
                 }
                 var decoder = "";
 
