@@ -1,5 +1,7 @@
-﻿using IronChallenge.Domain.Entities;
+﻿using IronChallenge.Domain.Dtos;
+using IronChallenge.Domain.Entities;
 using IronChallenge.Domain.Interface;
+using System.Collections.Generic;
 
 namespace IronChallenge.Infrastructure.Repository
 {
@@ -10,25 +12,29 @@ namespace IronChallenge.Infrastructure.Repository
             try
             {
                 List<Button> PhoneKeypad = ListButtons();
+                List<ButtonDto> buttonDtos = [];
                 List<string> NumberToCode = PhoneKeypad.Select(btn => $"{btn.Number}").ToList();
 
+                var listInputs = input.Split(' ');
 
-                var listCharacters = input
-                    .Where(chr => NumberToCode.Contains($"{chr}"))
-                    .GroupBy(chr => chr)
-                    .Select(chr => new
-                    {
-                        leter = $"{chr.First()}",
-                        totalRepition = chr.Count()
-                    })
-                    .ToList();
-
+                foreach (var _input in listInputs)
+                {
+                    buttonDtos.AddRange( _input
+                        .Where(chr => NumberToCode.Contains($"{chr}"))
+                        .GroupBy(chr => chr)
+                        .Select(chr => new ButtonDto
+                        {
+                            Character = $"{chr.First()}",
+                            TotalRepition = chr.Count()
+                        })
+                        .ToList());
+                }
                 var decoder = "";
 
-                foreach (var characters in listCharacters)
+                foreach (var buttonDto in buttonDtos)
                 {
-                    var letersCount = PhoneKeypad.Where(chr => $"{chr.Number}" == characters.leter).Select(chr => chr.Letters).FirstOrDefault();
-                    var total = characters.totalRepition;
+                    var letersCount = PhoneKeypad.Where(chr => $"{chr.Number}" == buttonDto.Character).Select(chr => chr.Letters).FirstOrDefault();
+                    var total = buttonDto.TotalRepition;
                     if (letersCount != null)
                         while (total > 0)
                         {
