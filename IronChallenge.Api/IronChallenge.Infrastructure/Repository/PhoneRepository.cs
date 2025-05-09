@@ -11,14 +11,19 @@ namespace IronChallenge.Infrastructure.Repository
         {
             try
             {
+                ///List button (number) with your list Character
                 List<Button> PhoneKeypad = ListButtons();
+                
                 List<ButtonDto> buttonDtos = [];
+                //Used for get the numbers and clear the character not permited in the string input
                 List<string> NumberToCode = PhoneKeypad.Select(btn => $"{btn.Number}").ToList();
 
+                //Separe string 
                 var listInputs = input.Split(' ');
 
                 foreach (var _input in listInputs)
                 {
+                    // Get number and count repetition
                     buttonDtos.AddRange( _input
                         .Where(chr => NumberToCode.Contains($"{chr}"))
                         .GroupBy(chr => chr)
@@ -31,31 +36,33 @@ namespace IronChallenge.Infrastructure.Repository
                 }
                 var decoder = "";
 
+                //decodified string input
                 foreach (var buttonDto in buttonDtos)
                 {
-                    var letersCount = PhoneKeypad.Where(chr => $"{chr.Number}" == buttonDto.Character).Select(chr => chr.Letters).FirstOrDefault();
-                    var total = buttonDto.TotalRepition;
-                    if (letersCount != null)
-                        while (total > 0)
+                    var listLetters = PhoneKeypad.Where(chr => $"{chr.Number}" == buttonDto.Character).Select(chr => chr.Letters).FirstOrDefault();
+                    var totalRepetition = buttonDto.TotalRepition;
+                    if (listLetters != null)
+                        while (totalRepetition > 0)
                         {
-                            if (total > letersCount.Count)
+                            if (totalRepetition > listLetters.Count)
                             {
-                                decoder += letersCount.OrderDescending().FirstOrDefault();
-                                total -= letersCount.Count;
+                                decoder += listLetters.OrderDescending().FirstOrDefault();
+                                totalRepetition -= listLetters.Count;
                             }
                             else
                             {
-                                decoder += letersCount.ElementAt(total - 1);
-                                total = 0;
+                                decoder += listLetters.ElementAt(totalRepetition - 1);
+                                totalRepetition = 0;
                             }
                         }
                 }
-
+                //IS OK
                 return (200, decoder);
 
             }
             catch (Exception ex)
             {
+                // IS BADREQUEST
                 return (400, ex.Message);
             }
             

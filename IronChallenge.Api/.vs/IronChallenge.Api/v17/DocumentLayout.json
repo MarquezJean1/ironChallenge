@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{31FE6974-C992-459C-801B-C57DF86D20A7}|IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj|solutionrelative:ironchallenge.infrastructure\\repository\\phonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.domain\\interface\\iphonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|solutionrelative:ironchallenge.domain\\interface\\iphonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8801638E-4369-4937-A38E-3AD3D0E61EBC}|IronChallenge.Api\\IronChallenge.Api.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.api\\controllers\\phonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8801638E-4369-4937-A38E-3AD3D0E61EBC}|IronChallenge.Api\\IronChallenge.Api.csproj|solutionrelative:ironchallenge.api\\controllers\\phonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.domain\\dtos\\buttondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|solutionrelative:ironchallenge.domain\\dtos\\buttondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{31FE6974-C992-459C-801B-C57DF86D20A7}|IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.infrastructure\\ironchallenge.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{31FE6974-C992-459C-801B-C57DF86D20A7}|IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj|solutionrelative:ironchallenge.infrastructure\\ironchallenge.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.domain\\interface\\iphonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|solutionrelative:ironchallenge.domain\\interface\\iphonerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}|IronChallenge.Domain\\IronChallenge.Domain.csproj|c:\\users\\dell\\documents\\proyectos\\ironchallenge\\ironchallenge.api\\ironchallenge.domain\\entities\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 330,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "PhoneController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Api\\Controllers\\PhoneController.cs",
+              "RelativeDocumentMoniker": "IronChallenge.Api\\Controllers\\PhoneController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Api\\Controllers\\PhoneController.cs",
+              "RelativeToolTip": "IronChallenge.Api\\Controllers\\PhoneController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T05:51:04.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ButtonDto.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Domain\\Dtos\\ButtonDto.cs",
               "RelativeDocumentMoniker": "IronChallenge.Domain\\Dtos\\ButtonDto.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IronChallenge.Infrastructure",
               "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj",
               "RelativeDocumentMoniker": "IronChallenge.Infrastructure\\IronChallenge.Infrastructure.csproj",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Api\\Program.cs",
               "RelativeDocumentMoniker": "IronChallenge.Api\\Program.cs",
@@ -87,27 +104,27 @@
               "RelativeDocumentMoniker": "IronChallenge.Infrastructure\\Repository\\PhoneRepository.cs",
               "ToolTip": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Infrastructure\\Repository\\PhoneRepository.cs",
               "RelativeToolTip": "IronChallenge.Infrastructure\\Repository\\PhoneRepository.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwB4AAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T04:12:35.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "IPhoneRepository.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Domain\\Interface\\IPhoneRepository.cs",
               "RelativeDocumentMoniker": "IronChallenge.Domain\\Interface\\IPhoneRepository.cs",
               "ToolTip": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Domain\\Interface\\IPhoneRepository.cs",
               "RelativeToolTip": "IronChallenge.Domain\\Interface\\IPhoneRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T04:12:16.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Button.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Domain\\Entities\\Button.cs",
               "RelativeDocumentMoniker": "IronChallenge.Domain\\Entities\\Button.cs",
@@ -120,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Proyectos\\ironChallenge\\IronChallenge.Api\\IronChallenge.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "IronChallenge.Domain\\Class1.cs",

@@ -8,6 +8,11 @@ namespace IronChallenge.Api.Controllers
     {
         private readonly IPhoneRepository _iPhoneRepository = iPhoneRepository;
 
+        /// <summary>
+        /// Accepts a set of characters and returns its equivalent in letters 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns> leters or '' if has not number the input</returns>
         [HttpGet("{input}")]
         public IActionResult Index(string input)
         {
