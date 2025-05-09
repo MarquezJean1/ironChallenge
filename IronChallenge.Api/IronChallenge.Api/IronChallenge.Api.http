@@ -1,0 +1,6 @@
+@IronChallenge.Api_HostAddress = http://localhost:5267
+
+GET {{IronChallenge.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
