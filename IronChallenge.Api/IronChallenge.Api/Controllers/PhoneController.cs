@@ -12,7 +12,7 @@ namespace IronChallenge.Api.Controllers
         /// Accepts a set of characters and returns its equivalent in letters 
         /// </summary>
         /// <param name="input"></param>
-        /// <returns> leters or '' if has not number the input</returns>
+        /// <returns> letters or '' if has not number the input</returns>
         [HttpGet("{input}")]
         public IActionResult Index(string input)
         {

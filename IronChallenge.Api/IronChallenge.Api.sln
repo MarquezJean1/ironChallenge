@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronChallenge.Infrastructur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronChallenge.Domain", "IronChallenge.Domain\IronChallenge.Domain.csproj", "{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronChallenge.Test", "IronChallenge.Test\IronChallenge.Test.csproj", "{DF1AE351-9D72-41AF-A354-042037B1FE18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A974E8BC-5076-4EDA-AF53-7E919ECC5AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1AE351-9D72-41AF-A354-042037B1FE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1AE351-9D72-41AF-A354-042037B1FE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1AE351-9D72-41AF-A354-042037B1FE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1AE351-9D72-41AF-A354-042037B1FE18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

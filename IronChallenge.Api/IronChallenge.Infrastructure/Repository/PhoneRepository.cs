@@ -11,6 +11,9 @@ namespace IronChallenge.Infrastructure.Repository
         {
             try
             {
+                var endCharacter = input[input.Length -1];
+                if (endCharacter != '#')
+                    return (400, "Code invalid,'#' must go at the end of the message ");
                 ///List button (number) with your list Character
                 List<Button> PhoneKeypad = ListButtons();
                 
@@ -72,8 +75,8 @@ namespace IronChallenge.Infrastructure.Repository
         /// List of characters that each button on the phone's keypad has.
         /// </summary>
         /// <returns></returns>
-        private static List<Button> ListButtons() => new()
-        {
+        private static List<Button> ListButtons() =>
+        [
             /*new ()
             {
                 Number = 0,
@@ -127,6 +130,6 @@ namespace IronChallenge.Infrastructure.Repository
 
             }
 
-        };
+        ];
     }
 }
