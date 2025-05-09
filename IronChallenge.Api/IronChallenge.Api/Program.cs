@@ -1,6 +1,11 @@
+using IronChallenge.Domain.Interface;
+using IronChallenge.Infrastructure.Repository;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// dependency
+builder.Services.AddScoped<IPhoneRepository, PhoneRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
